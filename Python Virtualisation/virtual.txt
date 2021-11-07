@@ -1,0 +1,10 @@
+To create a virtual environment - conda create -n env_name python==3.7
+to check the list of all environments - conda env list
+to activate the env - conda activate env_name
+to deactivate the env - conda deactivate 
+to check all the libraries in the env - pip list
+to install a library - pip install lib_name
+to uninstall a library - pip uninstall lib_name
+to upgrade a library - pip install --upgrade lib_name
+to take the copy of all the libraries used in an environment and store it in a file - pip freeze > name_of_file
+in order to install all the libraries listed in the previous file - pip install -r file_name
